@@ -1,0 +1,11 @@
+scipy
+numpy
+pandas
+trl
+transformers
+accelerate
+git+https://github.com/huggingface/peft.git
+datasets
+bitsandbytes
+einops
+wandb

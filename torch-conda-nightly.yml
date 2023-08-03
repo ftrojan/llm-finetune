@@ -1,0 +1,30 @@
+name: falcon-7b-finetune
+channels:
+  - pytorch-nightly
+  - conda-forge
+dependencies:
+    - python=3.10
+    - pip>=19.0
+    - pytorch 
+    - torchvision 
+    - jupyter
+    - scikit-learn
+    - scipy
+    - pandas
+    - pandas-datareader
+    - matplotlib
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - pyyaml
+    - flask
+    - boto3
+    - ipykernel
+    - git
+    - git-lfs
+    - pip:
+        - bayesian-optimization
+        - gym
+        - kaggle
+        
